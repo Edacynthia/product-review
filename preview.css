@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+section{
+    display: flex;
+    width: 55%;
+    height: 70vh;
+}
+
+img{
+    height: inherit;
+    width: 50%;
+}
+
+.yoyo {
+    width: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    justify-content: center;
+    gap:  20px;
+    background: white;
+}
+
+.yoyo .content{
+    color: hsl(228, 12%, 48%);
+    font-size: 18px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.food{
+    font-size: 23px;
+    font-weight: thin;
+    color: hsla(228, 12%, 48%, 0.813);
+}
+.intel {
+    width: fit-content;
+    display: flex;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.intel p:first-child{
+    color: hsl(158, 36%, 37%);
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.intel p:last-child{
+    color: hsl(228, 12%, 48%);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.btw{
+    padding: 15px 10px;
+    width: 100%;
+    height: 10%;
+    background: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 19px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.btw img{
+    height: 70%;
+    width: 30px;
+}
