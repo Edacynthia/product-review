@@ -28,25 +28,26 @@ img{
     color: black;
     display: flex;
     flex-direction: column;
-    padding: 0px 50px;
     justify-content: center;
-    gap:  20px;
+    gap:  15px;
+    padding: 25px;
     background: white;
+    height: inherit;
 }
 
 .yoyo .content{
     color: hsl(228, 12%, 48%);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 35px;
 }
 
 .food{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: thin;
-    color: hsla(228, 12%, 48%, 0.813);
+    color: hsl(228, 12%, 48%, 0.813);
 }
 .intel {
     width: fit-content;
@@ -58,13 +59,13 @@ h1{
 
 .intel p:first-child{
     color: hsl(158, 36%, 37%);
-    font-size: 55px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .intel p:last-child{
     color: hsl(228, 12%, 48%);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     text-decoration: line-through;
 }
@@ -78,7 +79,7 @@ h1{
     border-radius: 7px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    font-size: 19px;
+    font-size: 16px;
     color: hsl(0, 0%, 100%);
     font-weight: 700;
     display: flex;
@@ -87,6 +88,6 @@ h1{
     justify-content: center;
 }
 .btw img{
-    height: 70%;
-    width: 30px;
+    height: 1rem;
+    width: 18px;
 }
